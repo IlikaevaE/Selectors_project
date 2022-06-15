@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92529f90-c29f-4dd2-8563-34841e95fc8c" name="Changes" comment="homework done">
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+    <list default="true" id="92529f90-c29f-4dd2-8563-34841e95fc8c" name="Changes" comment=".gitignore added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dragdrop/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dragdrop/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/SoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/SoftAssertionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/SoftAssertionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655299749406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".gitignore added">
+      <created>1655299941071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655299941071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +230,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="homework done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework done" />
+    <MESSAGE value=".gitignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore added" />
   </component>
 </project>

@@ -1,8 +1,5 @@
 package github;
 
-import io.opentelemetry.sdk.trace.SdkTracerProvider;
-import org.junit.platform.commons.util.StringUtils;
-
 public class TestData {
 
     public final static String VALUE = "Soft",

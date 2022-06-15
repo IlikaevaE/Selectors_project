@@ -1,15 +1,10 @@
 package github;
 
-import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.selector.ByText;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.*;
-import static github.TestData.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class SoftAssertion {
 
@@ -28,17 +23,17 @@ public class SoftAssertion {
         wikiClick.click();
         return this;
     }
-    public SoftAssertion settingValue() {
-        inputValueWiki.setValue(VALUE);
+    public SoftAssertion settingValue(String setValue) {
+        inputValueWiki.setValue(setValue);
         return this;
     }
-    public SoftAssertion filterValue() {
-        filterValue.$$("li").filterBy(text(FULL_VALUE)).first().click();
+    public SoftAssertion filterValue(String fullValue) {
+        filterValue.$$("li").filterBy(text(fullValue)).first().click();
         return this;
     }
     
-    public SoftAssertion checkResult() {
-        selectArea.shouldHave(text(TEXT_RESULT)).$("a");
+    public SoftAssertion checkResult(String textResult) {
+        selectArea.shouldHave(text(textResult)).$("a");
         return this;
     }
 

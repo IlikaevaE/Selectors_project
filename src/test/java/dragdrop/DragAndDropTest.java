@@ -4,7 +4,6 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.interactions.Actions;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
@@ -31,6 +30,5 @@ public class DragAndDropTest {
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
 
-       sleep(5000);
     }
 }
